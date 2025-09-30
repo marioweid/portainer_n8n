@@ -12,5 +12,5 @@ services:
       - n8n_data:/home/node/.n8n
       - /home/mario/tools/n8n:/files
 
-volumes
+volumes:
   n8n_data:
